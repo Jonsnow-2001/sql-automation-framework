@@ -25,19 +25,66 @@ sql-automation-framework
 ├── testng.xml
 ├── .gitignore
 │
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ ├── config/
-│ │ │ └── database/
-│ │ └── resources/
+├── src
+│ ├── main
+│ │ ├── java
+│ │ │ ├── config
+│ │ │ │ └── ConfigReader.java
+│ │ │ └── database
+│ │ │ ├── DBConnection.java
+│ │ │ └── QueryExecutor.java
+│ │ └── resources
+│ │ └── config.properties
 │ │
-│ └── test/
-│ └── java/
-│ ├── reporting/
-│ └── tests/
+│ └── test
+│ └── java
+│ ├── reporting
+│ │ ├── ExtentManager.java
+│ │ └── TestListener.java
+│ └── tests
+│ ├── SampleTest.java
+│ ├── DatabaseTest.java
+│ └── UserQueryTest.java
 │
-└── target/
+└── target
+
+[//]: # (sql-automation-framework)
+
+[//]: # (│)
+
+[//]: # (├── pom.xml)
+
+[//]: # (├── testng.xml)
+
+[//]: # (├── .gitignore)
+
+[//]: # (│)
+
+[//]: # (├── src/)
+
+[//]: # (│ ├── main/)
+
+[//]: # (│ │ ├── java/)
+
+[//]: # (│ │ │ ├── config/)
+
+[//]: # (│ │ │ └── database/)
+
+[//]: # (│ │ └── resources/)
+
+[//]: # (│ │)
+
+[//]: # (│ └── test/)
+
+[//]: # (│ └── java/)
+
+[//]: # (│ ├── reporting/)
+
+[//]: # (│ └── tests/)
+
+[//]: # (│)
+
+[//]: # (└── target/)
 
 
 ---
