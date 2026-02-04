@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="SQL Automation Suite">
+
+    <listeners>
+        <listener class-name="com.kiran.reporting.TestListener"/>
+    </listeners>
+
+    <test name="User Query Tests">
+        <classes>
+            <class name="com.kiran.tests.UserQueryTest"/>
+        </classes>
+    </test>
+
+</suite>
